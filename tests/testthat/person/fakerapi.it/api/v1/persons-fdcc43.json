@@ -1,0 +1,53 @@
+{
+    "status": "OK",
+    "code": 200,
+    "total": 2,
+    "data": [
+        {
+            "id": 1,
+            "firstname": "Lilla",
+            "lastname": "Marquardt",
+            "email": "ldicki@kovacek.com",
+            "phone": "+3365370880763",
+            "birthday": "1965-08-06",
+            "gender": "female",
+            "address": {
+                "id": 0,
+                "street": "52517 Littel Bypass Suite 528",
+                "streetName": "Torp Cliff",
+                "buildingNumber": "9533",
+                "city": "Earleneton",
+                "zipcode": "56683",
+                "country": "Denmark",
+                "county_code": "PH",
+                "latitude": -18.119958,
+                "longitude": -146.932894
+            },
+            "website": "http://nikolaus.org",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 2,
+            "firstname": "Myrtis",
+            "lastname": "Dicki",
+            "email": "keyshawn.lockman@bogisich.com",
+            "phone": "+8610242933315",
+            "birthday": "1937-02-27",
+            "gender": "female",
+            "address": {
+                "id": 0,
+                "street": "3162 Padberg Mountains",
+                "streetName": "Birdie Island",
+                "buildingNumber": "2404",
+                "city": "Lake Elisabeth",
+                "zipcode": "57898-8763",
+                "country": "Poland",
+                "county_code": "PE",
+                "latitude": 3.214377,
+                "longitude": -67.365124
+            },
+            "website": "http://herzog.com",
+            "image": "http://placeimg.com/640/480/people"
+        }
+    ]
+}
