@@ -14,5 +14,6 @@ Imports:
     dplyr,
     httr2
 Suggests: 
+    httptest2,
     purrr,
     tibble
