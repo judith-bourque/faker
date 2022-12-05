@@ -10,8 +10,8 @@
 #' @export
 #'
 #' @examples
-#' str(faker("images", width = 300))
-faker <- function(resource, ..., quantity = 1, locale = "en_US", seed = NULL) {
+#' str(faker_request("images", width = 300))
+faker_request <- function(resource, ..., quantity = 1, locale = "en_US", seed = NULL) {
   params <- list(
     ...,
     quantity = quantity,
@@ -44,7 +44,7 @@ faker <- function(resource, ..., quantity = 1, locale = "en_US", seed = NULL) {
 #' str(faker_person("male"))
 
 faker_person <- function(gender = NULL, birthday_start = NULL, birthday_end = NULL, quantity = 1, locale = "en_US", seed = NULL) {
-  faker(
+  faker_request(
     "persons",
     gender = gender,
     birthday_start = birthday_start,
@@ -86,7 +86,7 @@ faker_person_tidy <- function(gender = NULL, birthday_start = NULL, birthday_end
     birthday_end <- format(birthday_end, "%Y-%m-%d")
   }
 
-  json <- faker(
+  json <- faker_request(
     "persons",
     gender = gender,
     birthday_start = birthday_start,
