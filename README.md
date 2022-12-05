@@ -8,7 +8,7 @@
 
 A [Faker API](https://fakerapi.it/en) wrapper package in R.
 
-Based on [`httr`](https://httr2.r-lib.org) and built using the workflow
+Based on [`httr2`](https://httr2.r-lib.org) and built using the workflow
 outlined in [R Packages](https://r-pkgs.org).
 
 ## Installation
