@@ -34,4 +34,5 @@ Get person
 }
 \examples{
 str(faker_person("male"))
+
 }

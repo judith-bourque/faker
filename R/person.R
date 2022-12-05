@@ -12,7 +12,7 @@
 #'
 #' @examples
 #' str(faker_person("male"))
-
+#'
 faker_person <- function(gender = NULL, birthday_start = NULL, birthday_end = NULL, quantity = 1, locale = "en_US", seed = NULL) {
   faker_request(
     "persons",
