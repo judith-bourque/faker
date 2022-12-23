@@ -30,7 +30,7 @@ faker_person_tidy(
 Tibble
 }
 \description{
-Get person data in tidy format
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }
 \examples{
 faker_person("male", quantity = 5)
