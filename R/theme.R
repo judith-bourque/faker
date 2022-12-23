@@ -80,6 +80,3 @@ theme_custom <- function(...){
 default_theme <- function() {
   theme_custom()
 }
-
-# TODO:
-# - Add test based on ggplot2 theme vignette in package
