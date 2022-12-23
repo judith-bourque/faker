@@ -6,6 +6,7 @@
 #'
 #' @return ggplot theme
 #' @export
+#' @family visualization
 #'
 #' @importFrom ggplot2 %+replace%
 #'
@@ -49,6 +50,7 @@ theme_custom <- function(...){
 #'
 #' @return ggplot2 theme
 #' @export
+#' @family visualization
 #'
 #' @examples
 #' \dontrun{

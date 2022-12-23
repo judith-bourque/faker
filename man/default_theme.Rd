@@ -38,3 +38,8 @@ geom_point(aes(x = wt, y = mpg, colour = gear)) +
 p1 + default_theme()
 }
 }
+\seealso{
+Other visualization: 
+\code{\link{theme_custom}()}
+}
+\concept{visualization}
