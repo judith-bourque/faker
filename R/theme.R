@@ -10,6 +10,8 @@
 #' @importFrom ggplot2 %+replace%
 #'
 #' @examples
+#' \dontrun{
+#' library("ggplot2")
 #' mtcars2 <- within(mtcars, {
 #' vs <- factor(vs, labels = c("V-shaped", "Straight"))
 #' am <- factor(am, labels = c("Automatic", "Manual"))
@@ -30,6 +32,7 @@
 #'   )
 #'
 #' p1 + theme_custom()
+#' }
 theme_custom <- function(...){
   ggplot2::theme_minimal(...) %+replace%
     ggplot2::theme(
@@ -48,6 +51,9 @@ theme_custom <- function(...){
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' library("ggplot2")
+#'
 #' mtcars2 <- within(mtcars, {
 #' vs <- factor(vs, labels = c("V-shaped", "Straight"))
 #' am <- factor(am, labels = c("Automatic", "Manual"))
@@ -68,6 +74,7 @@ theme_custom <- function(...){
 #'   )
 #'
 #' p1 + default_theme()
+#' }
 default_theme <- function() {
   theme_custom()
 }

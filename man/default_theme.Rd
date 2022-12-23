@@ -13,6 +13,9 @@ ggplot2 theme
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }
 \examples{
+\dontrun{
+library("ggplot2")
+
 mtcars2 <- within(mtcars, {
 vs <- factor(vs, labels = c("V-shaped", "Straight"))
 am <- factor(am, labels = c("Automatic", "Manual"))
@@ -33,4 +36,5 @@ geom_point(aes(x = wt, y = mpg, colour = gear)) +
   )
 
 p1 + default_theme()
+}
 }
