@@ -10,7 +10,7 @@ default_theme()
 ggplot2 theme
 }
 \description{
-Calculate theme after the package is loaded
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }
 \examples{
 mtcars2 <- within(mtcars, {

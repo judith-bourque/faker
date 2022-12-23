@@ -1,6 +1,8 @@
-#' ggplot theme
+#' Custom ggplot theme
 #'
-#' @return ggplot custom theme
+#' `r lifecycle::badge("experimental")`
+#'
+#' @return ggplot theme
 #' @export
 #'
 #' @importFrom ggplot2 %+replace%
@@ -14,7 +16,7 @@
 #' })
 #'
 #' p1 <- ggplot(mtcars2) +
-#' geom_point(aes(x = wt, y = mpg, colour = gear), shape = "square") +
+#' geom_point(aes(x = wt, y = mpg, colour = gear)) +
 #'   labs(
 #'     title = "Fuel economy declines as weight increases",
 #'     subtitle = "(1973-74)",
@@ -37,6 +39,8 @@ theme_custom <- function(...){
 }
 
 #' Calculate theme after the package is loaded
+#'
+#' `r lifecycle::badge("experimental")`
 #'
 #' @return ggplot2 theme
 #' @export

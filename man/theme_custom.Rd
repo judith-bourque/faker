@@ -2,15 +2,15 @@
 % Please edit documentation in R/theme.R
 \name{theme_custom}
 \alias{theme_custom}
-\title{ggplot theme}
+\title{Custom ggplot theme}
 \usage{
 theme_custom(...)
 }
 \value{
-ggplot custom theme
+ggplot theme
 }
 \description{
-ggplot theme
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }
 \examples{
 mtcars2 <- within(mtcars, {
@@ -21,7 +21,7 @@ gear <- factor(gear)
 })
 
 p1 <- ggplot(mtcars2) +
-geom_point(aes(x = wt, y = mpg, colour = gear), shape = "square") +
+geom_point(aes(x = wt, y = mpg, colour = gear)) +
   labs(
     title = "Fuel economy declines as weight increases",
     subtitle = "(1973-74)",
