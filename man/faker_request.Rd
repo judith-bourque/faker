@@ -21,7 +21,7 @@ faker_request(resource, ..., quantity = 1, locale = "en_US", seed = NULL)
 JSON data
 }
 \description{
-Create a fake core request function
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }
 \examples{
 str(faker_request("images", width = 300))

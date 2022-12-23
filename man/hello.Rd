@@ -10,6 +10,9 @@ hello()
 A string.
 }
 \description{
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
+}
+\details{
 This is an example function named 'hello' which prints 'Hello, world!'.
 }
 \examples{

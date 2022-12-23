@@ -1,5 +1,7 @@
 #' Get person data in tidy format
 #'
+#' `r lifecycle::badge("experimental")`
+#'
 #' @param gender gender
 #' @param birthday_start birthday start
 #' @param birthday_end birthday end

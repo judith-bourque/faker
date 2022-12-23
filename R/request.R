@@ -1,5 +1,7 @@
 #' Create a fake core request function
 #'
+#' `r lifecycle::badge("experimental")`
+#'
 #' @param resource resource
 #' @param ... other
 #' @param quantity quantity
