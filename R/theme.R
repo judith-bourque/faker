@@ -2,6 +2,8 @@
 #'
 #' `r lifecycle::badge("experimental")`
 #'
+#' @param ... Parameters to pass onto the base theme.
+#'
 #' @return ggplot theme
 #' @export
 #'

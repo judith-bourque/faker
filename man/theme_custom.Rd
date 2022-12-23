@@ -6,6 +6,9 @@
 \usage{
 theme_custom(...)
 }
+\arguments{
+\item{...}{Parameters to pass onto the base theme.}
+}
 \value{
 ggplot theme
 }
