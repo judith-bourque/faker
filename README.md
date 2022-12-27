@@ -23,36 +23,41 @@ devtools::install_github("judith-bourque/faker")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to get a person using the
+Faker API:
 
 ``` r
 library(faker)
-## basic example code
+
+str(faker_person("male"))
+#> List of 4
+#>  $ status: chr "OK"
+#>  $ code  : int 200
+#>  $ total : int 1
+#>  $ data  :List of 1
+#>   ..$ :List of 10
+#>   .. ..$ id       : int 1
+#>   .. ..$ firstname: chr "Geo"
+#>   .. ..$ lastname : chr "Harber"
+#>   .. ..$ email    : chr "shannon.nader@hickle.com"
+#>   .. ..$ phone    : chr "+4269718570645"
+#>   .. ..$ birthday : chr "1985-04-17"
+#>   .. ..$ gender   : chr "male"
+#>   .. ..$ address  :List of 10
+#>   .. .. ..$ id            : int 0
+#>   .. .. ..$ street        : chr "10653 Hagenes Glens Suite 019"
+#>   .. .. ..$ streetName    : chr "Rice Station"
+#>   .. .. ..$ buildingNumber: chr "2989"
+#>   .. .. ..$ city          : chr "Lake Allene"
+#>   .. .. ..$ zipcode       : chr "06217"
+#>   .. .. ..$ country       : chr "Oman"
+#>   .. .. ..$ county_code   : chr "TN"
+#>   .. .. ..$ latitude      : num -28.3
+#>   .. .. ..$ longitude     : num -174
+#>   .. ..$ website  : chr "http://gibson.com"
+#>   .. ..$ image    : chr "http://placeimg.com/640/480/people"
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+This package includes a ggplot2 theme inspired by the Faker API:
 
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<https://github.com/r-lib/actions/tree/v1/examples>.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
