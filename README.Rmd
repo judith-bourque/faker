@@ -49,10 +49,32 @@ summary(cars)
 
 You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>.
 
-You can also embed plots, for example:
+This package includes a ggplot2 theme inspired by the Faker API:
 
-```{r pressure, echo = FALSE}
-plot(pressure)
+```{r echo = FALSE}
+library("ggplot2")
+library("faker")
+
+mtcars2 <- within(mtcars, {
+vs <- factor(vs, labels = c("V-shaped", "Straight"))
+am <- factor(am, labels = c("Automatic", "Manual"))
+cyl  <- factor(cyl)
+gear <- factor(gear)
+})
+
+p1 <- ggplot(mtcars2) +
+geom_point(aes(x = wt, y = mpg, colour = gear)) +
+  labs(
+    title = "Fuel economy declines as weight increases",
+    subtitle = "(1973-74)",
+    caption = "Data from the 1974 Motor Trend US magazine.",
+    tag = "Figure 1",
+    x = "Weight (1000 lbs)",
+    y = "Fuel economy (mpg)",
+    colour = "Gears"
+  )
+
+p1 + theme_custom()
 ```
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
