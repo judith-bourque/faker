@@ -38,9 +38,9 @@ theme_custom <- function(...){
   ggplot2::theme_minimal(...) %+replace%
     ggplot2::theme(
       text = ggplot2::element_text(colour = "lightgreen"),
-      axis.text = ggplot2::element_text(colour = "lightgreen"),
-      panel.grid = ggplot2::element_line(colour = "lightgreen"),
-      plot.background = ggplot2::element_rect(fill = "black")
+      axis.text = ggplot2::element_text(colour = "lightblue"),
+      panel.grid = ggplot2::element_line(colour = "lightblue"),
+      plot.background = ggplot2::element_rect(fill = "grey20")
     )
 }
 
