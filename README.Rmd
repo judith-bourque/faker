@@ -42,8 +42,6 @@ library(faker)
 str(faker_person("male"))
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>.
-
 This package includes a ggplot2 theme inspired by the Faker API:
 
 ```{r echo = FALSE}
@@ -71,6 +69,3 @@ geom_point(aes(x = wt, y = mpg, colour = gear)) +
 
 p1 + theme_custom()
 ```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
-

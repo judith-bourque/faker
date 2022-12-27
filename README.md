@@ -37,36 +37,27 @@ str(faker_person("male"))
 #>  $ data  :List of 1
 #>   ..$ :List of 10
 #>   .. ..$ id       : int 1
-#>   .. ..$ firstname: chr "Gage"
-#>   .. ..$ lastname : chr "Berge"
-#>   .. ..$ email    : chr "deangelo68@ratke.net"
-#>   .. ..$ phone    : chr "+4889658450064"
-#>   .. ..$ birthday : chr "1942-06-10"
+#>   .. ..$ firstname: chr "Geo"
+#>   .. ..$ lastname : chr "Harber"
+#>   .. ..$ email    : chr "shannon.nader@hickle.com"
+#>   .. ..$ phone    : chr "+4269718570645"
+#>   .. ..$ birthday : chr "1985-04-17"
 #>   .. ..$ gender   : chr "male"
 #>   .. ..$ address  :List of 10
 #>   .. .. ..$ id            : int 0
-#>   .. .. ..$ street        : chr "984 Stokes Greens"
-#>   .. .. ..$ streetName    : chr "Olson Spur"
-#>   .. .. ..$ buildingNumber: chr "44016"
-#>   .. .. ..$ city          : chr "Vergieberg"
-#>   .. .. ..$ zipcode       : chr "59920"
-#>   .. .. ..$ country       : chr "Tuvalu"
-#>   .. .. ..$ county_code   : chr "AU"
-#>   .. .. ..$ latitude      : num 81.8
-#>   .. .. ..$ longitude     : num 171
-#>   .. ..$ website  : chr "http://wolf.info"
+#>   .. .. ..$ street        : chr "10653 Hagenes Glens Suite 019"
+#>   .. .. ..$ streetName    : chr "Rice Station"
+#>   .. .. ..$ buildingNumber: chr "2989"
+#>   .. .. ..$ city          : chr "Lake Allene"
+#>   .. .. ..$ zipcode       : chr "06217"
+#>   .. .. ..$ country       : chr "Oman"
+#>   .. .. ..$ county_code   : chr "TN"
+#>   .. .. ..$ latitude      : num -28.3
+#>   .. .. ..$ longitude     : num -174
+#>   .. ..$ website  : chr "http://gibson.com"
 #>   .. ..$ image    : chr "http://placeimg.com/640/480/people"
 ```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<https://github.com/r-lib/actions/tree/v1/examples>.
 
 This package includes a ggplot2 theme inspired by the Faker API:
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
