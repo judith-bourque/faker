@@ -17,6 +17,8 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/judith-bourque/faker/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/judith-bourque/faker/actions/workflows/R-CMD-check.yaml)
+
 <!-- badges: end -->
 
 A [Faker API](https://fakerapi.it/en) wrapper package in R.
