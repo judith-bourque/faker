@@ -4,6 +4,9 @@
 # faker
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/judith-bourque/faker/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/judith-bourque/faker/actions/workflows/R-CMD-check.yaml)
+
 <!-- badges: end -->
 
 A [Faker API](https://fakerapi.it/en) wrapper package in R.
@@ -37,24 +40,24 @@ str(faker_person("male"))
 #>  $ data  :List of 1
 #>   ..$ :List of 10
 #>   .. ..$ id       : int 1
-#>   .. ..$ firstname: chr "Geo"
-#>   .. ..$ lastname : chr "Harber"
-#>   .. ..$ email    : chr "shannon.nader@hickle.com"
-#>   .. ..$ phone    : chr "+4269718570645"
-#>   .. ..$ birthday : chr "1985-04-17"
+#>   .. ..$ firstname: chr "Justyn"
+#>   .. ..$ lastname : chr "Daniel"
+#>   .. ..$ email    : chr "prohaska.ruthe@hotmail.com"
+#>   .. ..$ phone    : chr "+1109087410639"
+#>   .. ..$ birthday : chr "2012-08-30"
 #>   .. ..$ gender   : chr "male"
 #>   .. ..$ address  :List of 10
 #>   .. .. ..$ id            : int 0
-#>   .. .. ..$ street        : chr "10653 Hagenes Glens Suite 019"
-#>   .. .. ..$ streetName    : chr "Rice Station"
-#>   .. .. ..$ buildingNumber: chr "2989"
-#>   .. .. ..$ city          : chr "Lake Allene"
-#>   .. .. ..$ zipcode       : chr "06217"
-#>   .. .. ..$ country       : chr "Oman"
-#>   .. .. ..$ county_code   : chr "TN"
-#>   .. .. ..$ latitude      : num -28.3
-#>   .. .. ..$ longitude     : num -174
-#>   .. ..$ website  : chr "http://gibson.com"
+#>   .. .. ..$ street        : chr "7741 Makenzie Field Apt. 460"
+#>   .. .. ..$ streetName    : chr "Hilpert Inlet"
+#>   .. .. ..$ buildingNumber: chr "9772"
+#>   .. .. ..$ city          : chr "West Kiana"
+#>   .. .. ..$ zipcode       : chr "57001"
+#>   .. .. ..$ country       : chr "Togo"
+#>   .. .. ..$ county_code   : chr "MK"
+#>   .. .. ..$ latitude      : num 25.3
+#>   .. .. ..$ longitude     : num -72.8
+#>   .. ..$ website  : chr "http://olson.com"
 #>   .. ..$ image    : chr "http://placeimg.com/640/480/people"
 ```
 
