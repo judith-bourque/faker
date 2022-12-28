@@ -23,8 +23,6 @@ knitr::opts_chunk$set(
 
 A [Faker API](https://fakerapi.it/en) wrapper package in R.
 
-Based on [`httr2`](https://httr2.r-lib.org) and built using the workflow outlined in [R Packages](https://r-pkgs.org).
-
 ## Installation
 
 You can install the development version of faker from [GitHub](https://github.com/) with:
@@ -71,3 +69,7 @@ geom_point(aes(x = wt, y = mpg, colour = gear)) +
 
 p1 + theme_custom()
 ```
+
+## About
+
+Based on [`httr2`](https://httr2.r-lib.org) and built using the workflow outlined in [R Packages](https://r-pkgs.org).
