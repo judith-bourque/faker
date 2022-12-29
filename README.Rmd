@@ -72,4 +72,4 @@ p1 + theme_custom()
 
 ## About
 
-Based on [`httr2`](https://httr2.r-lib.org) and built using the workflow outlined in [R Packages](https://r-pkgs.org).
+\`faker\` is based on [`httr2`](https://httr2.r-lib.org) and built using the workflow outlined in [R Packages](https://r-pkgs.org).
